@@ -1,0 +1,12 @@
+
+*.sqlite3
+
+tmp/pids/server.pid
+
+*.log
+
+db/development.sqlite3
+
+*.log
+
+log/development.log
