@@ -20013,3 +20013,2238 @@ Started GET "/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&term=ha" f
 
 
 Started GET "/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&term=ha" for 127.0.0.1 at 2014-07-19 20:01:55 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2014-07-19 20:07:19 -0700
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.9ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 248ms (Views: 247.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+
+Started GET "/gray_linen_background.jpg" for 127.0.0.1 at 2014-07-19 20:07:23 -0700
+
+ActionController::RoutingError (No route matches [GET] "/gray_linen_background.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.5ms)
+
+
+Started GET "/homes" for 127.0.0.1 at 2014-07-19 20:07:32 -0700
+
+ActionController::RoutingError (No route matches [GET] "/homes"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2014-07-19 20:07:35 -0700
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2014-07-19 20:08:21 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.7ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.5ms)
+
+
+Started GET "/home/" for 127.0.0.1 at 2014-07-19 20:08:24 -0700
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.7ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:08:27 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 40ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:08:27 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:08:27 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:08:27 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:08:27 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:08:27 -0700
+
+
+Started POST "/home/index" for 127.0.0.1 at 2014-07-19 20:08:40 -0700
+
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.3ms)
+
+
+Started POST "/home/index" for 127.0.0.1 at 2014-07-19 20:08:44 -0700
+
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.6ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:33 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111007283476158045232_1405825773558&term=pr&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:09:35 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111007283476158045232_1405825773558&term=pro&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:09:36 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111007283476158045232_1405825773558&term=pr&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:09:37 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111007283476158045232_1405825773558&term=po&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:09:39 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111007283476158045232_1405825773558&term=pr&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:09:41 -0700
+
+
+Started POST "/home/index" for 127.0.0.1 at 2014-07-19 20:09:44 -0700
+
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.7ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:09:49 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery111104796867435798049_1405825789268&term=pr&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:09:51 -0700
+
+
+Started GET "/nouns/562" for 127.0.0.1 at 2014-07-19 20:09:53 -0700
+Processing by NounsController#show as HTML
+  Parameters: {"id"=>"562"}
+  [1m[35mNoun Load (0.1ms)[0m  SELECT  "nouns".* FROM "nouns"  WHERE "nouns"."id" = ? LIMIT 1  [["id", 562]]
+Completed 404 Not Found in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find Noun with 'id'=562):
+  app/controllers/nouns_controller.rb:67:in `set_noun'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.6ms)
+
+
+Started GET "/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&id=562" for 127.0.0.1 at 2014-07-19 20:10:52 -0700
+
+ActionController::RoutingError (No route matches [GET] "/autocomplete/search"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.0ms)
+
+
+Started GET "/noun" for 127.0.0.1 at 2014-07-19 20:11:03 -0700
+
+ActionController::RoutingError (No route matches [GET] "/noun"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.2ms)
+
+
+Started GET "/nouns" for 127.0.0.1 at 2014-07-19 20:11:05 -0700
+Processing by NounsController#index as HTML
+  [1m[36mNoun Load (0.6ms)[0m  [1mSELECT "nouns".* FROM "nouns"[0m
+  Rendered nouns/index.html.erb within layouts/application (62.7ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+
+Started GET "/gray_linen_background.jpg" for 127.0.0.1 at 2014-07-19 20:11:06 -0700
+
+ActionController::RoutingError (No route matches [GET] "/gray_linen_background.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.4ms)
+
+
+Started GET "/nouns/11" for 127.0.0.1 at 2014-07-19 20:11:18 -0700
+Processing by NounsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mNoun Load (0.1ms)[0m  SELECT  "nouns".* FROM "nouns"  WHERE "nouns"."id" = ? LIMIT 1  [["id", 11]]
+  Rendered nouns/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&id=562" for 127.0.0.1 at 2014-07-19 20:11:26 -0700
+
+ActionController::RoutingError (No route matches [GET] "/autocomplete/search"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.8ms)
+
+
+Started GET "/nouns/562" for 127.0.0.1 at 2014-07-19 20:11:46 -0700
+Processing by NounsController#show as HTML
+  Parameters: {"id"=>"562"}
+  [1m[36mNoun Load (0.1ms)[0m  [1mSELECT  "nouns".* FROM "nouns"  WHERE "nouns"."id" = ? LIMIT 1[0m  [["id", 562]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Noun with 'id'=562):
+  app/controllers/nouns_controller.rb:67:in `set_noun'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.4ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "nouns"[0m
+  [1m[35mNoun Load (0.2ms)[0m  SELECT  "nouns".* FROM "nouns"  WHERE "nouns"."id" = ? LIMIT 1  [["id", 562]]
+  [1m[36mNoun Load (1.1ms)[0m  [1mSELECT  "nouns".* FROM "nouns"   ORDER BY "nouns"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'interface' AND "nouns"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Cotton Pants' AND "nouns"."id" != 2) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'alarm' AND "nouns"."id" != 3) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Plastic Table' AND "nouns"."id" != 4) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'card' AND "nouns"."id" != 5) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.2ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Wooden Shirt' AND "nouns"."id" != 6) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'matrix' AND "nouns"."id" != 7) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Cotton Gloves' AND "nouns"."id" != 8) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'bandwidth' AND "nouns"."id" != 9) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Wooden Car' AND "nouns"."id" != 10) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'panel' AND "nouns"."id" != 11) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Granite Hat' AND "nouns"."id" != 12) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Wooden Gloves' AND "nouns"."id" != 13) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Rubber Hat' AND "nouns"."id" != 14) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'feed' AND "nouns"."id" != 15) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.2ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Steel Hat' AND "nouns"."id" != 16) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'sensor' AND "nouns"."id" != 17) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Wooden Shirt' AND "nouns"."id" != 18) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Granite Gloves' AND "nouns"."id" != 19) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Wooden Hat' AND "nouns"."id" != 20) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Plastic Computer' AND "nouns"."id" != 21) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'bus' AND "nouns"."id" != 22) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Concrete Chair' AND "nouns"."id" != 23) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'circuit' AND "nouns"."id" != 24) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Steel Pants' AND "nouns"."id" != 25) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Concrete Table' AND "nouns"."id" != 26) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'protocol' AND "nouns"."id" != 27) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Concrete Car' AND "nouns"."id" != 28) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Concrete Shoes' AND "nouns"."id" != 29) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Steel Computer' AND "nouns"."id" != 30) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'driver' AND "nouns"."id" != 31) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Rubber Pants' AND "nouns"."id" != 32) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Cotton Shoes' AND "nouns"."id" != 33) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'microchip' AND "nouns"."id" != 34) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Plastic Chair' AND "nouns"."id" != 35) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Plastic Gloves' AND "nouns"."id" != 36) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Granite Gloves' AND "nouns"."id" != 37) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'firewall' AND "nouns"."id" != 38) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Wooden Computer' AND "nouns"."id" != 39) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'system' AND "nouns"."id" != 40) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Granite Gloves' AND "nouns"."id" != 41) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'array' AND "nouns"."id" != 42) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Granite Car' AND "nouns"."id" != 43) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Steel Chair' AND "nouns"."id" != 44) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Steel Table' AND "nouns"."id" != 45) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'capacitor' AND "nouns"."id" != 46) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'monitor' AND "nouns"."id" != 47) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Cotton Chair' AND "nouns"."id" != 48) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Rubber Car' AND "nouns"."id" != 49) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Wooden Shoes' AND "nouns"."id" != 50) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Steel Pants' AND "nouns"."id" != 51) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'application' AND "nouns"."id" != 52) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Plastic Car' AND "nouns"."id" != 53) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Granite Chair' AND "nouns"."id" != 54) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Wooden Shoes' AND "nouns"."id" != 55) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Plastic Computer' AND "nouns"."id" != 56) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Steel Car' AND "nouns"."id" != 57) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'pixel' AND "nouns"."id" != 58) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Concrete Shirt' AND "nouns"."id" != 59) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Concrete Pants' AND "nouns"."id" != 60) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Rubber Computer' AND "nouns"."id" != 61) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Steel Pants' AND "nouns"."id" != 62) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Plastic Car' AND "nouns"."id" != 63) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Rubber Table' AND "nouns"."id" != 64) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Concrete Car' AND "nouns"."id" != 65) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Steel Table' AND "nouns"."id" != 66) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Steel Table' AND "nouns"."id" != 67) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Plastic Chair' AND "nouns"."id" != 68) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'program' AND "nouns"."id" != 69) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Steel Computer' AND "nouns"."id" != 70) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Cotton Car' AND "nouns"."id" != 71) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Concrete Pants' AND "nouns"."id" != 72) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Wooden Shoes' AND "nouns"."id" != 73) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Steel Shirt' AND "nouns"."id" != 74) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Concrete Shoes' AND "nouns"."id" != 75) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Plastic Computer' AND "nouns"."id" != 76) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Plastic Shoes' AND "nouns"."id" != 77) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'transmitter' AND "nouns"."id" != 78) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Granite Computer' AND "nouns"."id" != 79) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Wooden Gloves' AND "nouns"."id" != 80) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Plastic Gloves' AND "nouns"."id" != 81) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Rubber Shirt' AND "nouns"."id" != 82) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Rubber Pants' AND "nouns"."id" != 83) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Wooden Chair' AND "nouns"."id" != 84) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Steel Gloves' AND "nouns"."id" != 85) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Granite Computer' AND "nouns"."id" != 86) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Rubber Computer' AND "nouns"."id" != 87) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Rubber Gloves' AND "nouns"."id" != 88) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'hard drive' AND "nouns"."id" != 89) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Plastic Shirt' AND "nouns"."id" != 90) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Plastic Shoes' AND "nouns"."id" != 91) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Granite Shirt' AND "nouns"."id" != 92) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Rubber Chair' AND "nouns"."id" != 93) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Steel Hat' AND "nouns"."id" != 94) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Plastic Car' AND "nouns"."id" != 95) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Rubber Computer' AND "nouns"."id" != 96) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Cotton Shoes' AND "nouns"."id" != 97) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Concrete Hat' AND "nouns"."id" != 98) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Granite Car' AND "nouns"."id" != 99) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Steel Shoes' AND "nouns"."id" != 100) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Wooden Computer' AND "nouns"."id" != 101) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Rubber Chair' AND "nouns"."id" != 102) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Concrete Shirt' AND "nouns"."id" != 103) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Wooden Chair' AND "nouns"."id" != 104) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Concrete Gloves' AND "nouns"."id" != 105) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Concrete Hat' AND "nouns"."id" != 106) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Wooden Gloves' AND "nouns"."id" != 107) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Cotton Computer' AND "nouns"."id" != 108) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Wooden Pants' AND "nouns"."id" != 109) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Plastic Gloves' AND "nouns"."id" != 110) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Granite Shirt' AND "nouns"."id" != 111) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Concrete Car' AND "nouns"."id" != 112) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Plastic Shoes' AND "nouns"."id" != 113) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Cotton Table' AND "nouns"."id" != 114) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Granite Car' AND "nouns"."id" != 115) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Steel Car' AND "nouns"."id" != 116) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Granite Shoes' AND "nouns"."id" != 117) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Steel Computer' AND "nouns"."id" != 118) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Steel Pants' AND "nouns"."id" != 119) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Rubber Shirt' AND "nouns"."id" != 120) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Rubber Shoes' AND "nouns"."id" != 121) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Cotton Pants' AND "nouns"."id" != 122) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Plastic Hat' AND "nouns"."id" != 123) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Granite Hat' AND "nouns"."id" != 124) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Plastic Pants' AND "nouns"."id" != 125) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Granite Computer' AND "nouns"."id" != 126) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Cotton Hat' AND "nouns"."id" != 127) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Wooden Pants' AND "nouns"."id" != 128) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'port' AND "nouns"."id" != 129) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Cotton Shirt' AND "nouns"."id" != 130) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Plastic Chair' AND "nouns"."id" != 131) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Concrete Table' AND "nouns"."id" != 132) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Concrete Chair' AND "nouns"."id" != 133) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Granite Pants' AND "nouns"."id" != 134) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Steel Hat' AND "nouns"."id" != 135) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Granite Shoes' AND "nouns"."id" != 136) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Granite Shoes' AND "nouns"."id" != 137) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Plastic Shirt' AND "nouns"."id" != 138) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Cotton Pants' AND "nouns"."id" != 139) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Rubber Chair' AND "nouns"."id" != 140) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Concrete Hat' AND "nouns"."id" != 141) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Plastic Hat' AND "nouns"."id" != 142) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Rubber Computer' AND "nouns"."id" != 143) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Rubber Shirt' AND "nouns"."id" != 144) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Steel Car' AND "nouns"."id" != 145) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Steel Computer' AND "nouns"."id" != 146) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Plastic Table' AND "nouns"."id" != 147) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Concrete Table' AND "nouns"."id" != 148) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Plastic Pants' AND "nouns"."id" != 149) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Steel Shirt' AND "nouns"."id" != 150) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Concrete Hat' AND "nouns"."id" != 151) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Wooden Hat' AND "nouns"."id" != 152) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Wooden Car' AND "nouns"."id" != 153) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Rubber Computer' AND "nouns"."id" != 154) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Plastic Shoes' AND "nouns"."id" != 155) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Concrete Computer' AND "nouns"."id" != 156) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Cotton Gloves' AND "nouns"."id" != 157) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Steel Gloves' AND "nouns"."id" != 158) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Wooden Hat' AND "nouns"."id" != 159) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Concrete Table' AND "nouns"."id" != 160) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Cotton Gloves' AND "nouns"."id" != 161) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Wooden Shoes' AND "nouns"."id" != 162) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Wooden Hat' AND "nouns"."id" != 163) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Cotton Shirt' AND "nouns"."id" != 164) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Cotton Pants' AND "nouns"."id" != 165) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Granite Chair' AND "nouns"."id" != 166) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Cotton Car' AND "nouns"."id" != 167) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Rubber Shoes' AND "nouns"."id" != 168) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Rubber Chair' AND "nouns"."id" != 169) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Plastic Hat' AND "nouns"."id" != 170) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Concrete Gloves' AND "nouns"."id" != 171) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Rubber Car' AND "nouns"."id" != 172) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Rubber Gloves' AND "nouns"."id" != 173) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Steel Computer' AND "nouns"."id" != 174) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Rubber Gloves' AND "nouns"."id" != 175) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Plastic Table' AND "nouns"."id" != 176) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Rubber Gloves' AND "nouns"."id" != 177) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Wooden Hat' AND "nouns"."id" != 178) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Granite Car' AND "nouns"."id" != 179) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Granite Chair' AND "nouns"."id" != 180) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Rubber Chair' AND "nouns"."id" != 181) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Concrete Shoes' AND "nouns"."id" != 182) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Concrete Computer' AND "nouns"."id" != 183) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Granite Computer' AND "nouns"."id" != 184) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Rubber Pants' AND "nouns"."id" != 185) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Cotton Shoes' AND "nouns"."id" != 186) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Wooden Chair' AND "nouns"."id" != 187) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Rubber Computer' AND "nouns"."id" != 188) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Granite Table' AND "nouns"."id" != 189) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Concrete Shirt' AND "nouns"."id" != 190) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Granite Shoes' AND "nouns"."id" != 191) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Steel Chair' AND "nouns"."id" != 192) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Granite Table' AND "nouns"."id" != 193) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Concrete Gloves' AND "nouns"."id" != 194) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Plastic Pants' AND "nouns"."id" != 195) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Plastic Shirt' AND "nouns"."id" != 196) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Steel Table' AND "nouns"."id" != 197) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Granite Shirt' AND "nouns"."id" != 198) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Plastic Computer' AND "nouns"."id" != 199) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Steel Shirt' AND "nouns"."id" != 200) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Rubber Table' AND "nouns"."id" != 201) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Cotton Hat' AND "nouns"."id" != 202) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Plastic Gloves' AND "nouns"."id" != 203) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Plastic Shirt' AND "nouns"."id" != 204) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Plastic Table' AND "nouns"."id" != 205) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Cotton Chair' AND "nouns"."id" != 206) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Concrete Table' AND "nouns"."id" != 207) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Concrete Shoes' AND "nouns"."id" != 208) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Rubber Shoes' AND "nouns"."id" != 209) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Wooden Table' AND "nouns"."id" != 210) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Wooden Chair' AND "nouns"."id" != 211) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Cotton Table' AND "nouns"."id" != 212) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Granite Table' AND "nouns"."id" != 213) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Cotton Hat' AND "nouns"."id" != 214) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Granite Computer' AND "nouns"."id" != 215) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Granite Car' AND "nouns"."id" != 216) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Plastic Shoes' AND "nouns"."id" != 217) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Incredible Wooden Table' AND "nouns"."id" != 218) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Cotton Car' AND "nouns"."id" != 219) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Wooden Gloves' AND "nouns"."id" != 220) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Rubber Table' AND "nouns"."id" != 221) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Wooden Pants' AND "nouns"."id" != 222) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Steel Gloves' AND "nouns"."id" != 223) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Wooden Computer' AND "nouns"."id" != 224) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Steel Shoes' AND "nouns"."id" != 225) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Concrete Shoes' AND "nouns"."id" != 226) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Concrete Pants' AND "nouns"."id" != 227) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Plastic Chair' AND "nouns"."id" != 228) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Steel Gloves' AND "nouns"."id" != 229) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Rustic Concrete Computer' AND "nouns"."id" != 230) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Plastic Car' AND "nouns"."id" != 231) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Cotton Shirt' AND "nouns"."id" != 232) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Rubber Gloves' AND "nouns"."id" != 233) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Practical Rubber Shirt' AND "nouns"."id" != 234) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Wooden Pants' AND "nouns"."id" != 235) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Concrete Chair' AND "nouns"."id" != 236) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Wooden Shoes' AND "nouns"."id" != 237) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Cotton Shirt' AND "nouns"."id" != 238) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Cotton Hat' AND "nouns"."id" != 239) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Cotton Computer' AND "nouns"."id" != 240) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Concrete Table' AND "nouns"."id" != 241) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Plastic Hat' AND "nouns"."id" != 242) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Concrete Gloves' AND "nouns"."id" != 243) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Sleek Concrete Shirt' AND "nouns"."id" != 244) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Gorgeous Cotton Gloves' AND "nouns"."id" != 245) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Concrete Shoes' AND "nouns"."id" != 246) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Rubber Pants' AND "nouns"."id" != 247) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Awesome Wooden Hat' AND "nouns"."id" != 248) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Plastic Table' AND "nouns"."id" != 249) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Small Concrete Shirt' AND "nouns"."id" != 250) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Wooden Computer' AND "nouns"."id" != 251) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Plastic Computer' AND "nouns"."id" != 252) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Fantastic Steel Car' AND "nouns"."id" != 253) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Cotton Hat' AND "nouns"."id" != 254) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Wooden Shoes' AND "nouns"."id" != 255) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Concrete Chair' AND "nouns"."id" != 256) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mNoun Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Intelligent Cotton Computer' AND "nouns"."id" != 257) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNoun Exists (0.1ms)[0m  SELECT  1 AS one FROM "nouns"  WHERE ("nouns"."name" = 'Ergonomic Cotton Gloves' AND "nouns"."id" != 258) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mVerb Load (0.2ms)[0m  SELECT  "verbs".* FROM "verbs"   ORDER BY "verbs"."id" ASC LIMIT 1000
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'input' AND "verbs"."id" != 1) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'programming' AND "verbs"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'compress' AND "verbs"."id" != 3) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'connecting' AND "verbs"."id" != 4) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'back up' AND "verbs"."id" != 5) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'navigating' AND "verbs"."id" != 6) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'bypass' AND "verbs"."id" != 7) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'bypassing' AND "verbs"."id" != 8) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'backing up' AND "verbs"."id" != 9) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'transmit' AND "verbs"."id" != 10) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'hack' AND "verbs"."id" != 11) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'indexing' AND "verbs"."id" != 12) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'index' AND "verbs"."id" != 13) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'generating' AND "verbs"."id" != 14) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'synthesize' AND "verbs"."id" != 15) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'hacking' AND "verbs"."id" != 16) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'compressing' AND "verbs"."id" != 17) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'generate' AND "verbs"."id" != 18) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'reboot' AND "verbs"."id" != 19) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'parsing' AND "verbs"."id" != 20) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'overriding' AND "verbs"."id" != 21) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'parse' AND "verbs"."id" != 22) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'quantifying' AND "verbs"."id" != 23) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'program' AND "verbs"."id" != 24) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'calculating' AND "verbs"."id" != 25) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'connect' AND "verbs"."id" != 26) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'navigate' AND "verbs"."id" != 27) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'copying' AND "verbs"."id" != 28) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'quantify' AND "verbs"."id" != 29) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'transmitting' AND "verbs"."id" != 30) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'calculate' AND "verbs"."id" != 31) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'copy' AND "verbs"."id" != 32) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mVerb Exists (0.1ms)[0m  SELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'override' AND "verbs"."id" != 33) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mVerb Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "verbs"  WHERE ("verbs"."name" = 'synthesizing' AND "verbs"."id" != 34) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:44 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery111102319914447143674_1405826024152&term=pr&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:13:50 -0700
+
+
+Started GET "/verbs/24" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+Processing by VerbsController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[35mVerb Load (0.1ms)[0m  SELECT  "verbs".* FROM "verbs"  WHERE "verbs"."id" = ? LIMIT 1  [["id", 24]]
+  Rendered verbs/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 6.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:13:54 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111004747928609140217_1405826036026&term=programe&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:13:57 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111004747928609140217_1405826036026&term=program&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:13:58 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111004747928609140217_1405826036026&term=progra&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:13:58 -0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/gray_linen_background.jpg" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+ActionController::RoutingError (No route matches [GET] "/gray_linen_background.jpg"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/runtime.rb:18:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/sendfile.rb:105:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/sergio/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:14:08 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery111107219167011789978_1405826048061&term=pr&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:14:10 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery111107219167011789978_1405826048061&term=pro&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:14:10 -0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:08 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery111105864704726263881_1405826108421&term=pro&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:15:09 -0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:15 -0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:15:20 -0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:26 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery111108340591522864997_1405826186205&term=ser&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:16:27 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery111108340591522864997_1405826186205&term=se&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:16:28 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery111108340591522864997_1405826186205&term=pr&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:16:29 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery111108340591522864997_1405826186205&term=pro&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:16:29 -0700
+
+
+Started GET "/verbs/24" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+Processing by VerbsController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mVerb Load (0.1ms)[0m  [1mSELECT  "verbs".* FROM "verbs"  WHERE "verbs"."id" = ? LIMIT 1[0m  [["id", 24]]
+  Rendered verbs/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 4.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:35 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111010937032871879637_1405826197104&term=pro&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:16:40 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111010937032871879637_1405826197104&term=pr&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:16:41 -0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:47 -0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nouns.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/verbs.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:48 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111036411695717833936_1405826208160&term=sp&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:16:50 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111036411695717833936_1405826208160&term=pr&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:16:51 -0700
+
+
+Started GET "/autocomplete/search?callback=jQuery1111036411695717833936_1405826208160&term=pro&types%5B%5D=nouns&types%5B%5D=verbs&limit=5" for 127.0.0.1 at 2014-07-19 20:16:51 -0700
+
+
+Started GET "/nouns/69" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+Processing by NounsController#show as HTML
+  Parameters: {"id"=>"69"}
+  [1m[35mNoun Load (0.1ms)[0m  SELECT  "nouns".* FROM "nouns"  WHERE "nouns"."id" = ? LIMIT 1  [["id", 69]]
+  Rendered nouns/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/soulmate.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+
+
+Started GET "/assets/jquery.soulmate.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+
+
+Started GET "/assets/nouns.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+
+
+Started GET "/assets/verbs.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-19 20:16:56 -0700
+
+
+Started GET "/home/index" for 127.0.0.1 at 2014-07-19 20:16:58 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&term=ha" for 127.0.0.1 at 2014-07-19 20:17:22 -0700
+
+
+Started GET "/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&term=ha" for 127.0.0.1 at 2014-07-19 20:17:23 -0700
+
+
+Started GET "/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&term=ha" for 127.0.0.1 at 2014-07-19 20:17:41 -0700
+
+
+Started GET "/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&term=ha" for 127.0.0.1 at 2014-07-19 20:17:44 -0700
+
+
+Started GET "/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&term=ha" for 127.0.0.1 at 2014-07-19 20:17:45 -0700
+
+
+Started GET "/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&term=ha" for 127.0.0.1 at 2014-07-19 20:17:48 -0700
+
+
+Started GET "/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&term=ha" for 127.0.0.1 at 2014-07-19 20:17:48 -0700
+
+
+Started GET "/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&term=ha" for 127.0.0.1 at 2014-07-19 20:17:55 -0700
