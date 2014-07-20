@@ -10,3 +10,11 @@ tmp/pids/server.pid
 log/development.log
 
 db/development.sqlite3
+
+*.log
+
+db/development.sqlite3
+
+log/development.log
+
+tmp/pids/server.pid
