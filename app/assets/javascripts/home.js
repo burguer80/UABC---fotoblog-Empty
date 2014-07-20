@@ -17,6 +17,8 @@ var ready = function(){
     return window.location.href = data.link
   }
  
+  //url to autocomplete redis 
+  //http://localhost:3000/autocomplete/search?types[]=verbs&types[]=nouns&limit=6&term=ha
   $('#search').soulmate({
     url: '/autocomplete/search',
     types: ['nouns','verbs'],
