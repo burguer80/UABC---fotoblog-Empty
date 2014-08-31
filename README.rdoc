@@ -1,28 +1,24 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Comando para instalar RoR en Ubuntu 14.04
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+#Agregar repositorios
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+
+#Actualizar los repositorios
+sudo apt-get update
+
+#Instalar las dependencias 
+sudo apt-get install libxslt1-dev libxml2-dev libmagickwand-dev imagemagick libsqlite3-dev libcurl4-openssl-dev curl git git-gui vim-gtk exuberant-ctags icedtea-plugin nodejs rar wmctrl sublime-text
+
+#Instalar RVM
+sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
+curl -L https://get.rvm.io | bash -s stable
+source ~/.rvm/scripts/rvm
+echo "source ~/.rvm/scripts/rvm" >> ~/.bashrc
+rvm install 2.1.2
+rvm use 2.1.2 --default
+ruby -v
+
+#Rails 
+gem install rails --no-ri --no-rdoc
